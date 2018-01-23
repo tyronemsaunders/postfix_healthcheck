@@ -1,0 +1,35 @@
+{
+  "name": "postfix-healthcheck",
+  "version": "1.0.0",
+  "description": "Healthcheck for a postfix server running on Ubuntu 16.04",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyronemsaunders/postfix-healthcheck.git"
+  },
+  "author": "Tyrone Saunders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tyronemsaunders/postfix-healthcheck/issues"
+  },
+  "homepage": "https://github.com/tyronemsaunders/postfix-healthcheck#readme",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-async-to-module-method": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-compress": "^2.0.0",
+    "koa-helmet": "^3.3.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.3.0"
+  }
+}
